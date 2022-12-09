@@ -1,0 +1,88 @@
+#banner .body {
+  background: #fff;
+  height: 500px;
+  transition: 0.4s ease-in-out;
+}
+#banner .body:hover {
+  background-color: #0dcaf0;
+  color: #fff;
+}
+#banner .body:hover span {
+  color: #fff;
+}
+#banner .body .item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 300px;
+  width: 100%;
+  border-radius: 50% 0% 50% 50%;
+  border: 10px solid #f8f9fa;
+}
+#banner .body h3 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+#banner .body span {
+  color: #00bcd4;
+  display: block;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-align: center;
+}
+#banner .body p {
+  text-align: center;
+  padding-top: 20px;
+  color: gray;
+  font-weight: 400;
+}
+#banner .body .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding-top: 15px;
+}
+#banner .body .icon .icon1 {
+  background: #00bcd4;
+  padding: 10px;
+  border-radius: 50px;
+}
+#banner .body .icon .icon2 {
+  background: #00bcd4;
+  padding: 10px;
+  border-radius: 50px;
+}
+#banner .body .icon .icon3 {
+  background: #00bcd4;
+  padding: 10px;
+  border-radius: 50px;
+}
+#banner .body .icon .icon4 {
+  background: #00bcd4;
+  padding: 10px;
+  border-radius: 50px;
+}
+#banner .body .icon span {
+  color: #fff;
+  display: block;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8f8f8;
+}/*# sourceMappingURL=style.css.map */

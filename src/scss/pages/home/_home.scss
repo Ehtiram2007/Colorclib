@@ -1,0 +1,80 @@
+#banner {
+  .body {
+    background: #fff;
+    height: 500px;
+    transition: 0.4s ease-in-out;
+    &:hover {
+      background-color: #0dcaf0;
+      color: #fff;
+      span{
+        color: #fff;
+      }
+    }
+    .item {
+      img {
+        object-fit: cover;
+        object-position: center;
+        height: 300px;
+        width: 100%;
+        border-radius: 50% 0% 50% 50%;
+        border: 10px solid #f8f9fa;
+      }
+    }
+    h3 {
+      font-size: 20px;
+      font-weight: 500;
+      text-align: center;
+    }
+    span{
+      color: #00bcd4;
+      display: block;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 14px;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      padding-top: 20px;
+      color: gray;
+      font-weight: 400;
+    }
+    .icon {
+      .icon1 {
+        background: #00bcd4;
+        padding: 10px;
+        border-radius: 50px;
+      }
+      .icon2 {
+        background: #00bcd4;
+        padding: 10px;
+        border-radius: 50px;
+      }
+      .icon3 {
+        background: #00bcd4;
+        padding: 10px;
+        border-radius: 50px;
+      }
+      .icon4 {
+        background: #00bcd4;
+        padding: 10px;
+        border-radius: 50px;
+      }
+      span {
+        color: #fff;
+        display: block;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 14px;
+        text-align: center;
+      }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      padding-top: 15px;
+    }
+  }
+}
